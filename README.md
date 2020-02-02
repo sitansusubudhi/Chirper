@@ -1,20 +1,22 @@
 # Chirper Project
 
-This repo is a code-along with the first project in the [React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
+Building this simple Twitter clone helps in understanding how to improve the predictability of an application's state; establishing strict rules for getting, listening, and updating the store; and identifying what state should live inside of Redux and what state should live inside of React components. 
 
-Most of the commits in this repository correspond to videos in the program.
+## View project locally
 
-## Project Setup
+To view the project in your local machine:
 
-* clone the Project - `git@github.com:udacity/reactnd-chirper-app.git`
-* install the dependencies - `npm install`
+* clone this repository using `git clone `
+* install all project dependencies with `npm install`
+* start the development server with `npm start`
 
-## Contributing
+## Component Hierarchy
 
-Because this is a code-along project and the commits correspond to specific videos in the program, we will not be accepting pull requests.
-
-If you feel like there's a major problem, please open an issue to discuss the problem and potential resolution.
-
-## License
-
-MIT
+```
+|- App 
+|-- Nav
+|-- NewTweet
+|-- Dashboard
+|--- Tweet 
+|---- TweetPage 
+```
